@@ -19,18 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="008dbbce-d127-4a99-8469-1aafade39d6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/design_patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/IMyActionObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/MyAbstractButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/MyHoverButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="008dbbce-d127-4a99-8469-1aafade39d6e" name="Default Changelist" comment="observer">
+      <change afterPath="$PROJECT_DIR$/src/decoupling/proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variant/strategy/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variant/strategy/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variant/strategy/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/IStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/adapter/IStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/adapter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/adapter/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/bridge/Communicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/bridge/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/Leaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/bridge/Leaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/LowerPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/bridge/LowerPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/bridge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/bridge/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/UpperPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/bridge/UpperPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/DummeListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/iterator/DummeListe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/iterator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/IMyActionObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/observer/IMyActionObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/observer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/MyAbstractButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/observer/MyAbstractButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/MyHoverButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decoupling/observer/MyHoverButton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,13 +76,27 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variant.strategy.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.*" />
+          <option name="PATTERN" value="variant.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decoupling.observer.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decoupling.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -100,8 +126,16 @@
       <workItem from="1595242279062" duration="739000" />
       <workItem from="1595243193475" duration="103000" />
       <workItem from="1595243303202" duration="148000" />
-      <workItem from="1595243455461" duration="1995000" />
+      <workItem from="1595243455461" duration="4209000" />
     </task>
+    <task id="LOCAL-00001" summary="observer">
+      <created>1595245520700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595245520700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +153,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="386" y="297" key="#Project_Structure" timestamp="1595243345012">
       <screen x="62" y="0" width="3378" height="1440" />
@@ -128,30 +166,38 @@
       <screen x="62" y="0" width="3378" height="1440" />
     </state>
     <state x="360" y="378" key="#com.intellij.execution.impl.EditConfigurationsDialog/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595243367104" />
+    <state x="711" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1595247632565">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state x="711" y="429" key="#com.intellij.ide.util.MemberChooser/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595247632565" />
     <state x="686" y="464" key="FileChooserDialogImpl" timestamp="1595243343436">
       <screen x="62" y="0" width="3378" height="1440" />
     </state>
     <state x="686" y="464" key="FileChooserDialogImpl/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595243343436" />
-    <state width="3335" height="685" key="GridCell.Tab.0.bottom" timestamp="1595245403671">
+    <state width="1643" height="529" key="GridCell.Tab.0.bottom" timestamp="1595247039992">
       <screen x="62" y="0" width="3378" height="1440" />
     </state>
-    <state width="3335" height="685" key="GridCell.Tab.0.bottom/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595245403671" />
-    <state width="3335" height="685" key="GridCell.Tab.0.center" timestamp="1595245403671">
+    <state width="1643" height="529" key="GridCell.Tab.0.bottom/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595247039992" />
+    <state width="1643" height="529" key="GridCell.Tab.0.center" timestamp="1595247039992">
       <screen x="62" y="0" width="3378" height="1440" />
     </state>
-    <state width="3335" height="685" key="GridCell.Tab.0.center/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595245403671" />
-    <state width="3335" height="685" key="GridCell.Tab.0.left" timestamp="1595245403670">
+    <state width="1643" height="529" key="GridCell.Tab.0.center/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595247039992" />
+    <state width="1643" height="529" key="GridCell.Tab.0.left" timestamp="1595247039992">
       <screen x="62" y="0" width="3378" height="1440" />
     </state>
-    <state width="3335" height="685" key="GridCell.Tab.0.left/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595245403670" />
-    <state width="3335" height="685" key="GridCell.Tab.0.right" timestamp="1595245403671">
+    <state width="1643" height="529" key="GridCell.Tab.0.left/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595247039992" />
+    <state width="1643" height="529" key="GridCell.Tab.0.right" timestamp="1595247039992">
       <screen x="62" y="0" width="3378" height="1440" />
     </state>
-    <state width="3335" height="685" key="GridCell.Tab.0.right/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595245403671" />
+    <state width="1643" height="529" key="GridCell.Tab.0.right/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595247039992" />
     <state x="386" y="297" key="SettingsEditor" timestamp="1595243448061">
       <screen x="62" y="0" width="3378" height="1440" />
     </state>
     <state x="386" y="297" key="SettingsEditor/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595243448061" />
+    <state x="1343" y="452" key="Vcs.Push.Dialog.v2" timestamp="1595245523187">
+      <screen x="62" y="0" width="3378" height="1440" />
+    </state>
+    <state x="1343" y="452" key="Vcs.Push.Dialog.v2/791.1440.1858.1080/62.0.3378.1440@62.0.3378.1440" timestamp="1595245523187" />
     <state x="613" y="456" width="587" height="592" key="find.popup" timestamp="1595242405063">
       <screen x="62" y="0" width="3378" height="1440" />
     </state>

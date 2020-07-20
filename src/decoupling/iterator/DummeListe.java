@@ -1,4 +1,4 @@
-package iterator;
+package decoupling.iterator;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package adapter;
+package decoupling.adapter;
 
 public interface IStack<E> {
     E pop();

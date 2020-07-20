@@ -1,4 +1,4 @@
-package iterator;
+package decoupling.iterator;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package observer;
+package decoupling.observer;
 
 import javax.swing.*;
 import java.awt.*;

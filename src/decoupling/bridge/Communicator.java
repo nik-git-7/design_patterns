@@ -1,4 +1,4 @@
-package bridge;
+package decoupling.bridge;
 
 public abstract class Communicator {
     private final Printer printer;

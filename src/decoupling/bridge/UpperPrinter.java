@@ -1,4 +1,4 @@
-package bridge;
+package decoupling.bridge;
 
 public class UpperPrinter implements Printer {
     @Override

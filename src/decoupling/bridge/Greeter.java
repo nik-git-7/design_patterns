@@ -1,4 +1,4 @@
-package bridge;
+package decoupling.bridge;
 
 public class Greeter extends Communicator  {
     public Greeter(Printer printer) {

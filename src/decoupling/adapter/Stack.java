@@ -1,4 +1,4 @@
-package adapter;
+package decoupling.adapter;
 
 import java.util.ArrayList;
 

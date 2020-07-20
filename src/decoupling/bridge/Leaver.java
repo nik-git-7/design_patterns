@@ -1,4 +1,4 @@
-package bridge;
+package decoupling.bridge;
 
 public class Leaver extends Communicator {
     public Leaver(Printer printer) {
